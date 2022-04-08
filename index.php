@@ -13,9 +13,9 @@ $item->unit_price = 1500;
 $preference->items = array($item);
 
 $preference->back_urls = array(
-    "success" => "http://localhost/MercadoPago/success.php",
-    "failure" => "http://localhost/MercadoPago/failure.php",
-    "pending" => "http://localhost/MercadoPago/pending.php"
+    "success" => "https://jairobandera.herokuapp.com/success.php",
+    "failure" => "https://jairobandera.herokuapp.com/failure.php",
+    "pending" => "https://jairobandera.herokuapp.com/pending.php"
 );
 $preference->auto_return = "approved";
 $preference->binary_mode = true;
